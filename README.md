@@ -5,3 +5,5 @@ fazer depois de algum tempo estudando programacao
 
 ⚠️Esta é uma versão 1.0 ,irei com o tempo aperfeicoando minhas skills e irei trazer uma segunda e ate terceira
 versão,ate la irei upar mais projetos em JavaScript
+
+//-----⚠️ O OperaGx nao aceita os estilos do input do tipo range,eu testei no Google Chrome e funcionou perfeitamente --------------//
