@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,black,rgb(136, 255, 0));
+}
+
+.copy-card{
+    background-color: grey;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+    padding: 2px;
+    position: absolute;
+    transform: translate(255px,82px);
+    display: none;
+}
+
+.generator-card h1{
+    font-size: 23px;
+    text-align: center;
+}
+
+.copy-card.flex{
+    display: flex;
+}
+
+.copy-card span{
+   font-size: 12px; 
+}
+
+.triangle{
+    position: absolute;    
+    width: 0;
+    height: 0;
+    left: 35%;
+    top: -6px;
+    border-bottom: 10px solid grey;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.generator-card{
+    box-shadow: 0px 0px 5px rgb(133, 133, 133);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.password{
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 0px 3px rgb(133, 133, 133);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.password span{
+    font-size: 15px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.input-area span{
+    font-size: 18px;
+}
+
+.input-range{
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px;
+    height: 9px;
+    accent-color: green;
+}
+
+i{
+    cursor: pointer;
+}
